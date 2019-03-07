@@ -29,7 +29,7 @@ void read_option_choice(){
 	int  menu_option;
 	scanf("%d", &menu_option);
 
-	if(menu_option==1){
+	if(menu_option==0){
 		show_fibonnacy_serie ();	
 	}
 

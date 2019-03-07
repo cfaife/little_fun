@@ -4,5 +4,3 @@
 
 
 void show_menu();
-
-void read_option_choice();
