@@ -6,14 +6,16 @@ int main (){
 
 	int num =read_number();
 
-	char * bin = converter(num);
+	char * bin ;
+
+	bin=converter(num);
 	
 	printf("\n");
 	printf("\n");
 	int i=0;
-	for(i =0;i<8;i++){
-		printf("%c",bin[i]);
-	}
+	
+	printf("%s",&bin);
+	
 	return 0;
 }
 
@@ -23,14 +25,16 @@ int read_number(){
 	int num=0;
 	scanf("%d",&num);
 
-	printf("valor: %d \n",num);
 	return num;
+
 }
 
 char *  converter(int num){
 
-	char bin[8] ={'0','0','0','0','0','0','0','0'};
+	char bin [] ="00000000";
 	if(num==0){
 		return bin;
 	}
+
+	return bin;
 }
