@@ -20,7 +20,7 @@ void show_menu_options(){
 
 	
 
-	read_menu_option_choice();
+	read_option_choice();
 }
 
 
