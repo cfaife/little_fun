@@ -1,24 +1,5 @@
-#include <stdio.h>
-
-int read_number();
-char *  converter(int num);
-int main (){
-
-	int num =read_number();
-
-	char * bin ;
-
-	bin=converter(num);
+#include "binary.h";
 	
-	printf("\n");
-	printf("\n");
-	int i=0;
-	
-	printf("%s",&bin);
-	
-	return 0;
-}
-
 int read_number(){
 
 	printf("induza um valor de 0-255  para ser convertido em  binario \n");

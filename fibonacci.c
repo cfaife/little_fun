@@ -12,7 +12,7 @@ void  show_fibonnacy_serie (){
 	}
 	i=0;
 	while(i<40){
-		printf("%d \n",array[i]);
+		printf("%d - ",array[i]);
 		i++;
 	}
 }
