@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 
-int read_number();
+void read_number();
 
 
-char *  converter(int num);
+void converter(int num);
 
